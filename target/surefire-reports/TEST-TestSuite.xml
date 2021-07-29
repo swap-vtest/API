@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="TestSuite" time="52.149" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="TestSuite" time="58.11" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Dell\eclipse-workspace-Maven_Sample\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5777131127060570814.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Dell\eclipse-workspace-Maven_Sample\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf173900865537267931.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-9\bin;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.8.1\bin\;C:\Program Files\Maven\apache-maven-3.8.1\;C:\Program Files\Maven\apache-maven-3.8.1\\bin\;C:\Program Files\Java\jdk1.8.0_301;C:\Program Files\Java\jdk1.8.0_301\lib;C:\Program Files\Java\jdk-16.0.1\bin;C:\Windows;;."/>
     <property name="jdk.debug" value="release"/>
@@ -56,7 +56,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Maven_Sample.Zoop.TC_RC_Valid_Authentication_100" name="APIResponse" time="50.999">
+  <testcase classname="Maven_Sample.Zoop.TC_RC_Valid_Authentication_100" name="APIResponse" time="57.618">
     <failure message="expected [100] but found [108]" type="java.lang.AssertionError">java.lang.AssertionError: expected [100] but found [108]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -81,16 +81,16 @@ x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
 content-length: 361
-etag: W/&quot;169-UYlkjU49Q1LDxa+HQOlYqo/fLYY&quot;
+etag: W/&quot;169-LbrJu2CZr4XD2aiC0MohQOwbqWM&quot;
 vary: Accept-Encoding
-date: Thu, 29 Jul 2021 08:18:45 GMT
-x-envoy-upstream-service-time: 46852
+date: Thu, 29 Jul 2021 08:44:45 GMT
+x-envoy-upstream-service-time: 52232
 server: istio-envoy
 
 {
-    &quot;request_id&quot;: &quot;1c0f13eb-1704-4284-b757-58170d99a5db&quot;,
-    &quot;task_id&quot;: &quot;cace7ded-a253-4fcb-8d30-d9f5d711e343&quot;,
-    &quot;group_id&quot;: &quot;91085c69-4d89-4837-bdfa-56bd47541ba6&quot;,
+    &quot;request_id&quot;: &quot;76d84bfa-c12a-4241-af08-a228b2a33557&quot;,
+    &quot;task_id&quot;: &quot;15b8db6b-f0c8-4255-baf2-66d392f0dfcd&quot;,
+    &quot;group_id&quot;: &quot;2aeeba58-1211-495e-9e03-a84abd84cb28&quot;,
     &quot;success&quot;: false,
     &quot;response_code&quot;: &quot;108&quot;,
     &quot;response_message&quot;: &quot;Source Error&quot;,
@@ -98,8 +98,8 @@ server: istio-envoy
         &quot;billable&quot;: &quot;N&quot;
     },
     &quot;result&quot;: null,
-    &quot;request_timestamp&quot;: &quot;2021-07-29T08:17:58.576Z&quot;,
-    &quot;response_timestamp&quot;: &quot;2021-07-29T08:18:45.383Z&quot;
+    &quot;request_timestamp&quot;: &quot;2021-07-29T08:43:53.492Z&quot;,
+    &quot;response_timestamp&quot;: &quot;2021-07-29T08:44:45.702Z&quot;
 }
 MAP :{consent_text=RC Lite is Verified by author, vehicle_registration_number=GJ06AU0048, consent=Y}
 user_name is :null
@@ -108,5 +108,5 @@ Response Message is :Source Error
 Billable is :N
 </system-out>
   </testcase>
-  <testcase classname="Maven_Sample.Zoop.TC_Blank_API_key" name="APIResponse" time="1.15"/>
+  <testcase classname="Maven_Sample.Zoop.TC_Blank_API_key" name="APIResponse" time="0.492"/>
 </testsuite>

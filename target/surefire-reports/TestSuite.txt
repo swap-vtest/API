@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.053 sec <<< FAILURE!
-APIResponse(Maven_Sample.Zoop.TC_RC_Valid_Authentication_100)  Time elapsed: 50.999 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.05 sec <<< FAILURE!
+APIResponse(Maven_Sample.Zoop.TC_RC_Valid_Authentication_100)  Time elapsed: 57.618 sec  <<< FAILURE!
 java.lang.AssertionError: expected [100] but found [108]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
