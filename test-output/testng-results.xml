@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-29T14:15:22 IST" name="Default suite" finished-at="2021-07-29T14:16:20 IST" duration-ms="57646">
+  <suite started-at="2021-07-29T16:01:08 IST" name="Default suite" finished-at="2021-07-29T16:02:05 IST" duration-ms="56877">
     <groups>
     </groups>
-    <test started-at="2021-07-29T14:15:22 IST" name="Default test" finished-at="2021-07-29T14:16:20 IST" duration-ms="57646">
+    <test started-at="2021-07-29T16:01:08 IST" name="Default test" finished-at="2021-07-29T16:02:05 IST" duration-ms="56877">
+      <class name="Maven_Sample.Zoop.TC_Blank_API_key">
+        <test-method signature="APIResponse()[pri:0, instance:Maven_Sample.Zoop.TC_Blank_API_key@769a1df5]" started-at="2021-07-29T16:01:08 IST" name="APIResponse" finished-at="2021-07-29T16:01:13 IST" duration-ms="4761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIResponse -->
+      </class> <!-- Maven_Sample.Zoop.TC_Blank_API_key -->
       <class name="Maven_Sample.Zoop.TC_RC_Valid_Authentication_100">
-        <test-method signature="APIResponse()[pri:0, instance:Maven_Sample.Zoop.TC_RC_Valid_Authentication_100@8317c52]" started-at="2021-07-29T14:15:22 IST" name="APIResponse" finished-at="2021-07-29T14:16:20 IST" duration-ms="57579" status="FAIL">
+        <test-method signature="APIResponse()[pri:0, instance:Maven_Sample.Zoop.TC_RC_Valid_Authentication_100@41f69e84]" started-at="2021-07-29T16:01:13 IST" name="APIResponse" finished-at="2021-07-29T16:02:05 IST" duration-ms="52036" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [100] but found [108]]]>
@@ -56,6 +62,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- APIResponse -->
       </class> <!-- Maven_Sample.Zoop.TC_RC_Valid_Authentication_100 -->
+      <class name="Maven_Sample.Zoop.FirstClass">
+        <test-method signature="f()[pri:0, instance:Maven_Sample.Zoop.FirstClass@7975d1d8]" started-at="2021-07-29T16:02:05 IST" name="f" finished-at="2021-07-29T16:02:05 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Maven_Sample.Zoop.FirstClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

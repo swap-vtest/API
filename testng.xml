@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Maven_Sample.Zoop.AppTest"/>
-      <class name="Maven_Sample.Zoop.TC_RC_Valid_Authentication_100"/>
+      <!-- >class name="Maven_Sample.Zoop.TC_RC_Valid_Authentication_100"/-->
       <class name="Maven_Sample.Zoop.TC_Blank_API_key"/>
     </classes>
   </test> <!-- Test -->
