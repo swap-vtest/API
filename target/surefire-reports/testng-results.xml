@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4900" started-at="2021-07-29T17:51:59 IST" finished-at="2021-07-29T17:52:04 IST">
+  <suite name="Suite" duration-ms="4731" started-at="2021-07-29T19:02:39 IST" finished-at="2021-07-29T19:02:44 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4900" started-at="2021-07-29T17:51:59 IST" finished-at="2021-07-29T17:52:04 IST">
+    <test name="Test" duration-ms="4731" started-at="2021-07-29T19:02:39 IST" finished-at="2021-07-29T19:02:44 IST">
       <class name="Maven_Sample.Zoop.TC_Blank_API_key">
-        <test-method status="PASS" signature="APIResponse()[pri:0, instance:Maven_Sample.Zoop.TC_Blank_API_key@233fe9b6]" name="APIResponse" duration-ms="4846" started-at="2021-07-29T17:51:59 IST" finished-at="2021-07-29T17:52:04 IST">
+        <test-method status="PASS" signature="APIResponse()[pri:0, instance:Maven_Sample.Zoop.TC_Blank_API_key@78e94dcf]" name="APIResponse" duration-ms="4673" started-at="2021-07-29T19:02:39 IST" finished-at="2021-07-29T19:02:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APIResponse -->
